@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Station Pulse",
+    "slug": "station-pulse-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "backgroundColor": "#f5f7fa" },
+    "ios": { "supportsTablet": false },
+    "web": { "bundler": "metro", "name": "Station Pulse" }
+  }
+}
