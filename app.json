@@ -5,8 +5,20 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "splash": { "backgroundColor": "#f5f7fa" },
-    "ios": { "supportsTablet": false },
-    "web": { "bundler": "metro", "name": "Station Pulse" }
+    "splash": {
+      "backgroundColor": "#f5f7fa"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "web": {
+      "bundler": "metro",
+      "name": "Station Pulse"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a857bd11-420f-4d98-a17f-2d3a444158af"
+      }
+    }
   }
 }

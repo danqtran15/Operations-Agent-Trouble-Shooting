@@ -9,7 +9,9 @@
     "expo:start": "expo start",
     "expo:web": "expo start --web",
     "expo:ios": "expo start --ios",
-    "app:data": "node export-app-data.js"
+    "app:data": "node export-app-data.js",
+    "docs:generate": "node generate-troubleshooting-docs.js",
+    "preview:build": "npm run docs:generate && npm run generate && npm run app:data && expo export --platform web"
   },
   "repository": {
     "type": "git",
@@ -24,9 +26,15 @@
   },
   "homepage": "https://github.com/danqtran15/Operations-Agent-Trouble-Shooting#readme",
   "dependencies": {
+    "@expo-google-fonts/raleway": "^0.4.2",
+    "@expo-google-fonts/source-sans-pro": "^0.2.3",
     "@expo/metro-runtime": "^58.0.17",
+    "docx": "^9.15.4",
     "exceljs": "^4.4.0",
     "expo": "^58.0.25",
+    "expo-asset": "^58.0.21",
+    "expo-font": "^58.0.12",
+    "expo-sharing": "^58.0.23",
     "expo-status-bar": "^58.0.5",
     "ml-matrix": "^6.15.1",
     "react": "19.3.0",
